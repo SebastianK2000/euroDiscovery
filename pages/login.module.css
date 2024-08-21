@@ -1,0 +1,120 @@
+
+  .main-container-login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 20px;
+    color: rgb(42, 41, 41);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .link-decoration {
+    text-decoration: none;
+    color: #30af5b;
+}
+  
+  .form-main-login {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 0px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    color: rgb(42, 41, 41);
+  }
+  
+  .h1-main-login {
+    color: rgb(42, 41, 41);
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .button-main-login {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #30af5b;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .button-main-login:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.1);
+  }
+  
+  .do-you-have-account {
+    text-align: center;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(42, 41, 41);    
+    padding: 0;
+  }
+  
+  .register-here {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  
+  .input-main-login {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+ .label-main-login {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .show-password-checkbox {
+    cursor: pointer;
+  }
+
+  .link-react-decoration-none {
+    text-decoration: none;
+  }
+
+  .show-password-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .show-password-container label {
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .form-main-login {
+      padding: 0px 20px;
+      position: relative;
+      top: 100px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.main-container-register-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+  }
+
+.form-main-register {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+.h1-main-register {
+    color: rgb(42, 41, 41);
+    text-align: center;
+    font-weight: 400;
+}
+
+.link-decoration {
+    text-decoration: none;
+    color: #30af5b;
+}
+
+.button-main-register {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #30af5b;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.button-main-register:hover {
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+
+.do-you-have-account{ 
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(42, 41, 41);}
+
+.login-there {
+  color: rgb(42, 41, 41);
+  cursor: pointer;
+}
+
+.link-react-decoration-none {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .form-main-register {
+        padding: 0px 20px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main-container-register-form  {
+        margin-top: 50px;
+    }
+}
